@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeEvents.Web", "BikeEvents.Web\BikeEvents.Web.csproj", "{ED5B883A-5FEC-4307-ACF2-40535424BD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeEvents.DomainModels", "BikeEvents.DomainModels\BikeEvents.DomainModels.csproj", "{8FA2C442-0AE2-40C9-B8C6-9E5ECD20E716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeEvents.DataAccess", "BikeEvents.DataAccess\BikeEvents.DataAccess.csproj", "{2B17904C-D704-4AEE-ADB8-89C264729251}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5B883A-5FEC-4307-ACF2-40535424BD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5B883A-5FEC-4307-ACF2-40535424BD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5B883A-5FEC-4307-ACF2-40535424BD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5B883A-5FEC-4307-ACF2-40535424BD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA2C442-0AE2-40C9-B8C6-9E5ECD20E716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA2C442-0AE2-40C9-B8C6-9E5ECD20E716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA2C442-0AE2-40C9-B8C6-9E5ECD20E716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA2C442-0AE2-40C9-B8C6-9E5ECD20E716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B17904C-D704-4AEE-ADB8-89C264729251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B17904C-D704-4AEE-ADB8-89C264729251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B17904C-D704-4AEE-ADB8-89C264729251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B17904C-D704-4AEE-ADB8-89C264729251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

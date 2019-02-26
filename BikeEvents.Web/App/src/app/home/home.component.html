@@ -1,0 +1,43 @@
+<div class="content-wrapper container">
+    <div class="events-grid-greeting">Предстоящие события:</div>
+    <div class="events-grid-month-wrapper row">
+        <div class="col-md-4">
+            <div class="col-md-12 border-bottom"></div>  
+            <div class="col-md-12"></div>  
+        </div>
+        <div class="events-grid-month col-md-2">Февраль:</div>
+        <div class="col-md-4">
+            <div class="col-md-12 border-bottom"></div>  
+            <div class="col-md-12"></div>  
+        </div>
+    </div>
+
+    
+    <div class="cards-container row">
+      <mat-card class="card-item col-md-10 offset-md-1" *ngFor="let event of events">
+        <mat-card-header>
+          <mat-card-title>{{event.title}}</mat-card-title>
+          <mat-card-subtitle>{{event.startTime}}</mat-card-subtitle>
+        </mat-card-header>
+        
+        <div class="mat-card-contents">
+            <img mat-card-image 
+            src="https://material.angular.io/assets/img/examples/shiba2.jpg" 
+            alt="Photo of a Shiba Inu">
+
+            <mat-card-content>
+              <p>{{event.description}}</p>
+              <p><a href="#">show details...</a></p>
+            </mat-card-content>
+            
+        </div>
+        <mat-card-actions>
+            <button mat-icon-button color="warn">
+                <mat-icon aria-label="Like this event">favorite</mat-icon>
+            </button>
+            <span>142 likes</span>
+        </mat-card-actions>
+      </mat-card>  
+    </div>
+</div>
+
